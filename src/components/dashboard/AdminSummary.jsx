@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import SummaryCard from './SummaryCard'
 import { FaBuilding, FaCheckCircle, FaFileAlt, FaMoneyBillWave, FaUsers,FaHourglassHalf, FaTimesCircle} from 'react-icons/fa'
 import axios from "axios";
-import Salary from '../../../../server/models/Salary';
+
 
 const AdminSummary = () => {
 
