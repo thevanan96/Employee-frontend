@@ -44,7 +44,7 @@ export const columns = [
 export const fetchDepartments = async () => {
    let departments
     try {
-      const responnse = await axios.get('http://localhost:3000/api/department',{
+      const responnse = await axios.get('https://employee-backend-opal.vercel.app/api/department',{
         headers: {
           "Authorization" : `Bearer ${localStorage.getItem('token')}`
         }
